@@ -1592,3 +1592,43 @@
 		body.is-loading #footer {
 			opacity: 0;
 		}
+		
+		<style>
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 200px;
+    background-color: #f1f1f1;
+}
+
+li a {
+    display: block;
+    color: #FFFFFF;
+    padding: 8px 16px;
+    text-decoration: none;
+}
+
+li a.active {
+    background-color: #4CAF50;
+    color: white;
+}
+
+li a:hover:not(.active) {
+    background-color: #555;
+    color: white;
+}
+</style>
+<style>
+img:hover {
+    opacity: 0.5;
+    filter: alpha(opacity=50); /* For IE8 and earlier */
+}
+</style>
+
+<style type="text/css">
+u {    
+    border-bottom: 1px dotted #000;
+    text-decoration: none;
+}
+</style>
